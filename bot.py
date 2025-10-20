@@ -18,9 +18,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("7955603188:AAEMhEEK2CblnKuQRwDLhdOqSKx1FzvILXc")  # Maxfiy ma'lumotlar muhiti o'zgaruvchilari orqali olinadi
-ADMIN_ID = int(os.getenv("964318020", "0"))  # ADMIN_ID'ni ham muhit o'zgaruvchisi orqali oling
-USDT_ADDRESS = os.getenv("TNjvqz6Trm9ZGQ6nyPE1eB5wVewmKUQVQh", "TRC20")
+# Muhit o'zgaruvchilari orqali maxfiy ma'lumotlarni olish
+BOT_TOKEN = os.getenv(7955603188:AAEMhEEK2CblnKuQRwDLhdOqSKx1FzvILXc)  # Telegram bot token
+ADMIN_ID = int(os.getenv("964318020", "0"))  # Admin ID yoki 0
+USDT_ADDRESS = os.getenv("TNjvqz6Trm9ZGQ6nyPE1eB5wVewmKUQVQh", "TRC20")  # Default USDT manzil
 DATA_FILE = "chipu_data.json"
 
 # Paketlar
