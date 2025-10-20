@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-
 # -*- coding: utf-8 -*-
-
-“””
 CHIP-U Investment Bot
 100% To’g’ri va Xatosiz Versiya
 “””
